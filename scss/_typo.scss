@@ -1,0 +1,47 @@
+
+
+.header__title{
+    font: $font_title;
+    text-transform: uppercase;
+    text-align: center;
+    color: $verde_800;
+    margin: $margin_32_btn_top;
+}
+
+.title--animate{
+    animation-name: title;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+@keyframes title{
+    0%{font-size: 64px; color:$verde_800; transform: skewY(4deg);}
+    50%{font-size: 64px; color: $verde_300;transform: skewY(0deg) ;}
+    100%{font-size: 64px; color:$verde_800; transform: skewY(4deg);}
+}
+
+
+h2{
+    font: $font_24;
+    text-transform: uppercase;
+    line-height: 32px;
+    padding-left: 24px;
+    margin: 32px 0 32px 0;
+    font-weight: 700;
+}
+
+h3{
+    font: $font_20;
+}
+
+h4{
+    font: $font_14
+}
+
+p{
+    font: $font_16;
+    color: $black_900;
+    margin: $margin_8_btn_top;
+}

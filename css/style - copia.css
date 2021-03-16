@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: linear-gradient(70deg,#FFFFFF, #d6cbcb );
+}
+
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-style: ;
+    line-height: 16px;
+    margin: 32px auto 16px auto;
+    padding: 32px;
+    background-image: linear-gradient(45deg, #a13535, #eb5426);
+    color: #ffffff;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #373D3D;
+    margin: 32px auto 32px auto;
+    animation-name: title;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+@keyframes title{
+    0%{font-size: 64px; color: #373D3D; transform: skewY(4deg);}
+    50%{font-size: 64px; color: #09E07F;transform: skewY(0deg) ;}
+    100%{font-size: 64px; color: #373D3D; transform: skewY(4deg);}
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 32px;
+    padding-left: 24px;
+    margin: 16px 0 16px 0;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 12px 12px 12px 24px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 16px;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+    margin: 24px 8px 24px 16px;
+}
+
+form fieldset{
+    border: none;
+    outline: solid #373D3D 2px;
+    margin: 0px;
+}
+
+form h2{
+ font-style: italic;
+}
+
+form h3{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+form select{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h4{
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.check{
+    margin: 8px auto 24px auto;
+}
+
+.check p{ 
+    display: inline-block;
+    margin: 0px;
+}
+
+.input{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+.input label{
+    padding-right: 24px;
+}
+
+#menu{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px; 
+    text-align: center; 
+    font-weight: 700;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+}
+
+#menu li{
+    padding: 0% 2% 0% 2%;
+}
+
+#menu li a{
+    color: #222222;
+    transition-duration: 0.5s;
+}
+
+#menu li a:hover{
+    background: rgb(53, 53, 53);
+    padding: 10px;
+    color: rgb(218, 211, 211);
+}
+
+.activo{
+    background: #09E07F;
+    color: #373D3D;
+    padding: 12px;
+}
+
+#carro{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 auto 24px auto;
+}
+
+#carro li a{
+    padding: 8px 16px 8px 16px;
+    background: #eb2626;
+    color: #FFFFFF;
+}
+
+header{
+    
+    padding-bottom: 32px;
+    margin: 0%;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+
+
+#carro li{
+    display: inline;
+    padding: 0% 2% 0% 2%;
+}
+
+select {
+    /* // A reset of styles, including removing the default dropdown arrow */
+    /* appearance: none; */
+    /* // Additional resets for further consistency */
+    background-color: transparent;
+    border: none;
+    padding: 16px 16px 16px 16px;
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #1DF191;
+    background-image: linear-gradient(45deg, #1DF191, #99ffd1);
+    cursor: inherit;
+    line-height: inherit;
+    /* outline: none; */
+    display: grid;
+  }
+
+select::-ms-expand {
+    display: none;
+  }
+
+a{
+    text-decoration: none;
+}
+
+#retosSemanales{
+ font-family: 'Roboto', sans-serif;
+ padding-top: 24px;
+ padding-bottom: 24px;
+}
+
+#retosSemanales div{
+    background-image: url(../img/calisthenics-main.jpg);
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.miniatura{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    border: solid #141414;
+    text-align: center;
+    background-image: linear-gradient(to right, #a13535, #eb2626 );
+    transform: skew(-10deg);
+}
+
+.categoria{
+    padding: 0px 32px 0px 32px;
+}
+.miniatura img{
+    width: 100%;
+}
+
+.miniatura h4{
+    margin-top: 12px; 
+    margin-bottom: 12px ; 
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#actividadDestacada{
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+#actividadDestacada h4{
+    color:#ffffff ;
+}
+
+#actividadDestacada h2{
+    color: #EA451C ;
+}
+
+input{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 12px;
+}
+
+textarea{
+    font-family: sans-serif;
+    color: rgb(202, 173, 173);
+}
+
+.btnOk{
+    background-color: #84D725;
+    border-radius: 0px;
+    border: none;
+    margin: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+
+.btnOk:hover{
+    transform: scale(1.1,1.1);
+    color: #ffffff;
+    background-color: #f08e1f;
+}
+
+
+table th, td {
+    border: 1px solid rgb(158, 127, 127);
+    padding: 4px 24px 4px 16px;
+}
+
+table{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 12px auto 12px auto;
+}
+
+table th{
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.anadirCarro{
+    background-color: #09E07F ;
+    border-radius: 8px;
+    border: none;
+    margin: 8px;
+    transition-duration: 0.4s;
+}
+
+.anadirCarro:hover{
+    background-color:#f08e1f ;
+    color: #FFFFFF;
+}
+
+/* Responsive color */
+@media only screen and (max-width: 768px){
+    body{
+        background: rgb(173, 173, 173);
+    }
+
+    h1{
+        color: #09E07F;
+    }
+}
+
+/* Grid 'Estrellas' section */
+
+#estrellas{
+    grid-area: estrellas;
+}
+
+.estrella{
+    grid-area: estrella;
+}
+
+.persona{
+    grid-area: persona;
+}
+
+.videoEstrella{
+    grid-area: videoEstrella;
+}
+
+.premiosTitle{
+    grid-area: premiosTitle;
+}
+
+.premios{
+    grid-area: premios;
+}
+
+#estrellas{
+    margin-top: 32px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "estrella"
+    ;
+    grid-auto-rows: 500px;
+    grid-auto-columns: 100%;
+}
+
+.estrella{
+    display: grid;
+    grid-template-areas: 
+    "persona videoEstrella premiosTitle"
+    "persona videoEstrella premios"
+    "persona videoEstrella premios";
+    grid-auto-rows: 50px auto auto;
+    grid-auto-columns:25% auto 20%;
+}
+
+.persona{
+    background: #222222;
+    color: #FFFFFF;
+    
+}
+.persona img{
+    width: 100%;
+}
+
+.premiosTitle{
+    padding: 12px;
+    text-align: center;
+    margin: 0;
+    background: #09E07F;
+    color: #000000;
+}
+
+.premios {
+    background: #222222;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Rutinas flexbox */
+
+.card{
+    width: 300px;
+    padding: 24px;
+}
+
+.foto{
+    width: 300px;
+}
+
+.foto img{
+    width: 100%;
+}
+
+.card{
+    margin: 16px;
+}
+
+.btn-primary{
+    color: #000000;
+    background-color: #09E07F;
+    border-color: #000000;
+}
+
+.btn-primary:hover{
+    color: #FFFFFF;
+    background-color: #f77811;
+}

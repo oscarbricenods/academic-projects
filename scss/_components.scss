@@ -1,0 +1,81 @@
+.formulario{
+    margin: 24px 8px 24px 16px;
+
+    h2{
+        font-style: italic;
+    }
+
+    h3{
+        margin: 12px 0px 12px 0px;
+    }
+
+    select{
+        margin: 16px 0px 16px 0px; 
+    }
+}
+
+.formulario__suscribete{
+    border: none;
+    outline: solid $black_500;
+    margin: 0px;
+
+    select {
+        /* // A reset of styles, including removing the default dropdown arrow */
+        /* appearance: none; */
+        /* // Additional resets for further consistency */
+        background-color: transparent;
+        border: none;
+        padding: 16px 16px 16px 16px;
+        margin: 0;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: #1DF191;
+        background-image: linear-gradient(45deg, #1DF191, #99ffd1);
+        cursor: inherit;
+        line-height: inherit;
+        /* outline: none; */
+        display: grid;
+      }
+    
+    select::-ms-expand {
+        display: none;
+      }
+}
+
+.formulario__input{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 8px;
+
+    label{
+        padding-right: 24px;
+    }
+}
+
+.formulario__check{
+    margin: 8px auto 24px auto;
+    p{
+        display: inline-block;
+        margin: 0px;
+    }
+}
+
+.btn{
+    font: $font_16;
+    padding: 12px;
+}
+
+.btn__btnOk{
+    background-color: #84D725;
+    border-radius: 0px;
+    border: none;
+    margin: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    transition-duration: 1s;
+}

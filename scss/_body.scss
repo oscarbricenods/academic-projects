@@ -1,0 +1,189 @@
+body{
+    background: $white_0;
+}
+
+.main__actividadDestacada{
+    p{
+        padding-left: 16px;
+    }
+    h2{
+        color: $red_500;
+    }
+}
+
+.main__categoria{
+    padding: 0px 32px 0px 32px;
+}
+
+.main__categoria--miniatura{
+    width: 100%;
+    margin: 8px 16px 8px 0px;
+    border: solid $black_800;
+    text-align: center;
+    background-image: linear-gradient(to right, #a13535, #eb2626 );
+    transform: skew(-10deg);
+
+    img{
+        width: 100%;
+        }
+    h4{
+        margin: $margin_12_btn_top;
+        text-transform: uppercase;
+        font: $font_16;
+        color: $white_0;
+    }
+}
+
+.main__retosSemanales--p{
+    color: $black_900;
+    background-color: $verde_300;
+    transform: skewY(2deg);
+}
+
+.footer{
+    text-align: center;
+    font: $font_16;
+    text-transform: uppercase;
+    line-height: 16px;
+    margin: 0;
+    padding: 32px;
+    background-image: linear-gradient(45deg, #a13535, #eb5426);
+    color: #ffffff;
+}
+
+.estrellas__estrella{
+    margin-top: 16px;
+    background: $black_800;
+    .estrellas__persona{
+        padding: 0;
+        color: $white_0;
+        img{
+            width: 100%;
+        }
+        h3{
+            padding: 16px 16px 8px 24px;
+        }
+        h4{
+            padding: 8px 16px 16px 24px;
+        }
+    }
+    .estrellas__videoEstrella{
+        padding: 0;
+    }
+    .estrellas__premios{
+        padding: 0;
+        h2{
+            text-align: center;
+            margin: 0;
+            padding: 12px;
+            background: $verde_300;
+            color: $black_900;
+        }
+        ol{
+            color: $white_0;
+            font: $font_16;
+            margin: 24px;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+
+.rutinas{
+    h2{
+        margin-top: 32px;
+        padding-left: 24px;
+    }
+
+    align-items: center;
+    .rutinas__card{
+        width: 300px;
+        margin: 24px;
+        border: 2px $black_500 solid;
+        padding: 0;
+
+        .btn-primary{
+            color: $black_900;
+            background-color: $verde_300;
+            border-color: $black_500;
+            width: 100%;
+        }
+
+        .btn-primary:hover{
+            color: $white_0;
+            background-color: $naranja_300;
+        }
+    }
+}
+
+.select{
+    /* // A reset of styles, including removing the default dropdown arrow */
+    /* appearance: none; */
+    /* // Additional resets for further consistency */
+    background-color: transparent;
+    border: none;
+    padding: 16px 16px 16px 16px;
+    font: $font_16;
+    font-weight: 700;
+    background-color: $verde_300;
+    background-image: linear-gradient(45deg, $verde_300, #99ffd1);
+    cursor: inherit;
+    line-height: inherit;
+    /* outline: none; */
+}
+
+.tienda{
+    .tienda__subtitle{
+        display: flex;
+        align-items: center;
+        background-color: $black_800;
+        color: $white_0;
+        height: 53px;
+        line-height: 53px;
+        flex-direction: row-reverse;        
+    }
+
+    .tabla{
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        margin: 12px auto 12px auto;
+
+        th, td{
+            border: 1px solid $black_500;
+            padding: 4px 24px 4px 16px;
+        }
+
+        th{
+            font: $font_24;
+            color: $white_0;
+            background-color: $black_900;
+        }
+
+        .tabla__producto{
+            height: 200px;
+        }
+
+        .tabla--resaltado{
+            font-size: 20px;
+            font-weight: 700;
+            padding-left: 16px;
+            margin: 0;
+        }
+        
+    }
+
+}
+
+.btn__primary{
+    background-color: #09E07F ;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    margin: 8px;
+    transition-duration: 0.4s;
+}
+
+.btn__primary:hover{
+    background-color:#f08e1f ;
+    color: #FFFFFF;
+}
+
